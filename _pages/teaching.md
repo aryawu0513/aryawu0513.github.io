@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
+title: arts
+redirect_to: https://aryazixuan.weebly.com
+nav: true
 nav_order: 6
 ---
 

@@ -19,4 +19,4 @@ I'm a senior undergraduate at Wellesley College majoring in Computer Science and
 
 My research interests center around evaluating Large Language Models for natural language, multimodal data, and code generation, with a focus on interpretability, representation, and reasoning.
 
-Currently, I'm working on neural network interpretability for Code LLMs under Prof. [Arjun Guha](https://www.khoury.northeastern.edu/home/arjunguha/main/home/) at NEU, and benchmarking patterns in human writing systems on Vision-Language models under Prof. [Carolyn Anderson](https://canders1.github.io).
+Currently, I'm working on neural network interpretability for Code Large Language Models under Prof. [Arjun Guha](https://www.khoury.northeastern.edu/home/arjunguha/main/home/) at NEU, and benchmarking patterns in human writing systems on Vision-Language models under Prof. [Carolyn Anderson](https://canders1.github.io).
