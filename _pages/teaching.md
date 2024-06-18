@@ -2,11 +2,10 @@
 layout: page
 permalink: /teaching/
 title: arts
-redirect_to: https://aryazixuan.weebly.com
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+In my previous life I was a fine art/architecture design student.
+Here's my [art](https://aryazixuan.weebly.com) website.
+Nowadays I leverage my enthusiasm for art & design in building interactive and intelligent objects and interfaces.
