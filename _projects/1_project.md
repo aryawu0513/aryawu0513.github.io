@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Latent Lab:Large Language Model for Knowledge Exploration
+description: MIT Media Lab--Viral Communication
+img: assets/img/medialab.jpg
 importance: 1
-category: work
+category: research projects
 related_publications: true
 ---
 

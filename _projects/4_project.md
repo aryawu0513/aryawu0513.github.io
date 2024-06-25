@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Augmented Reality App for Learning
+description: MIT CSAIL HCI Engineering
+img: assets/img/hcie.jpg
+importance: 4
+category: research projects
 ---
 
 Every project has a beautiful feature showcase page.

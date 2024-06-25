@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Crowdsourced Food Delivery
+description: Wellesley Crowdnets Lab
+img: assets/img/fooddelivery.jpg
 importance: 2
-category: work
+category: research projects
 giscus_comments: true
 ---
 

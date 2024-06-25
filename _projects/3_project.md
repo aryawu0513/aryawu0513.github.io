@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
+title: User-centered Design Using AI
+description: MIT D-Lab
+img: assets/img/dlab.jpg
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: research projects
 ---
 
 Every project has a beautiful feature showcase page.
