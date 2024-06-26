@@ -3,79 +3,45 @@ layout: page
 title: User-centered Design Using AI
 description: MIT D-Lab
 img: assets/img/dlab.jpg
-redirect: https://unsplash.com
 importance: 3
 category: research projects
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<a href="https://www.researchgate.net/publication/375813743_Form_Attributes_to_Measure_and_Understand_Aesthetic_Preferences" target="_blank">Form Attributes to Measure and Understand Aesthetic Preferences</a>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<column-set gutter="0rem" mobile-hide-empty="false" mobile-stack="true">
+    <column-unit slot="0" span="3"></column-unit>
+    <column-unit slot="1" span="9">
+        <br>
+        Generative Design Tools empowered by artificial intelligence have been increasingly in use in industry and research. These tools use quantitative inputs to generate designs optimized for performance. We are interested in understanding how qualitative objectives, such as aesthetics based on user preferences, are balanced with quantitative objectives, as represented by our multi-objective optimization (MOO) tool.
+        <br>
+        <br>
+        I'm responsible for maintaining the Rhino+Grasshopper Generative Design Tool, constructing and running in-lab experiments, and assisting in data analysis.
+        <br>
+        <br>
+        Our experiment builds upon the verified assumption that individuals' aesthetic preferences carry through different forms of objects. For example, users' aesthetic preferences of canopies are carried on to vases. We categorized the forms into four categories: Long/Short, Wide/Narrow, Curved/Angular, and Complex/Simple. Each canopy is associated in form to a vase image that we constructed.
+        <br>
+                {% include figure.liquid loading="eager" path="assets/img/dlab0.png" title="Example Image" class="img-fluid rounded z-depth-1" %}
+        <br>
+        Designers are given the task of designing canopies according to the cafe owner's preference, which is given to them in the form of vases they like and vases they dislike. By leveraging Grasshopper, the designer is free to make changes to the canopy by sliding the slide bars that controls the form, such as length, number of supports, curvature, tip, and anchor points. Each canopy being designed has their associated performance index. Two numbers are reported to the user, the first is the current shaded area in ft^2 and the weight in kg. The second number is the normalization of the current performance with respect to the best possible performance.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+        <br>
+        <div style="display: flex; align-items: stretch;">
+            <!-- Vertical Image on the Left -->
+            <div style="flex: 1; padding-right: 10px;">
+                {% include figure.liquid loading="eager" path="assets/img/dlab1.png" title="Vertical Image" class="img-fluid rounded z-depth-1" %}
+            </div>
+            <!-- Two Vertical Images Stacked on the Right -->
+            <div style="flex: 1; display: flex; flex-direction: column;">
+                <div style="flex: 1; margin-bottom: 10px;">
+                    {% include figure.liquid loading="eager" path="assets/img/dlab3.png" title="Vertical Image 1" class="img-fluid rounded z-depth-1" %}
+                </div>
+                <div style="flex: 1;">
+                    {% include figure.liquid loading="eager" path="assets/img/dlab2.png" title="Vertical Image 2" class="img-fluid rounded z-depth-1" %}
+                </div>
+            </div>
+        </div>
+        Each Designer is given two tasks, each round takes 30 minutes. The designer first design freely and rely on their own judgement, and then in the second round, a Multi-objective optimization tool is introduced to assist the design process. MOO will explore 100 possible designs and will capture the top 20 designs. These 20 optimized designs are either the best in terms of shaded area, the best in terms of weight, or somewhere in between for both objectives. At the end, the users are asked to provide the top three design from both rounds, with answers on their process of balancing between the aesthetic looks of the canopy and the performance index. We perform data analysis to understand how incorporating aesthetic objectives in generative design affect the design process and design outcomes.
+    </column-unit>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+</column-set>

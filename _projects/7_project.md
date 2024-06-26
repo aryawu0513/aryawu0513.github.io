@@ -1,81 +1,25 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: work
-related_publications: true
+title: Creative Tracklist Generation
+description: Final Project for MIT 6.8610 Quantitative Methods for Natural Language Processing
+img: assets/img/songtrack.jpg
+importance: 3
+category: course projects
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+{% include figure.liquid loading="eager" path="assets/img/songtrack_poster.jpg" title="Example Image" class="img-fluid rounded z-depth-1" %}
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<!-- <img src="assets/songtrack_poster.jpg" alt="Poster"> -->
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<br>
+This study proposes and evaluates&nbsp;models capable of generating song titles given the name of an&nbsp;album. Our goal is to contribute to the evolving landscape of&nbsp;NLP applications in the music industry, offering a creative tool&nbsp;for content generation and exploring novel possibilities for&nbsp;enhancing the artistic process.&nbsp;<br>
+<br>
+Our research adopts a multifaceted approach to address the challenge of&nbsp;generating song titles from album names, leveraging state-of-the-art language&nbsp;models for creative text generation.<br>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+1. GPT-2 with Prompt Engineering:<br>
+   The initial phase employs the GPT-2 language model with prompt engineering&nbsp;to directly generate song titles. Training data consists of album name-track&nbsp;name tuples obtained from Last.FM APIs. The GPT-2 model is fine-tuned on this&nbsp;dataset, and various prompts are experimented with to enhance title diversity.<br>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+2. T5-GPT-2 Narrative Framework:<br>
+   Recognizing the limitations of recurring themes in GPT-2, the second phase&nbsp;attempts to enrich the narrative context by leveraging a T5 model fine-tuned on&nbsp;commongen. With T5, we transform track listings into sentences, which serves&nbsp;as a narrative context mapped with each album’s name. A GPT-2 model is then&nbsp;trained on this dataset, and prompted to produce more varied and contextually&nbsp;rich outputs that are decoded back into a list of song titles.<br>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<br>

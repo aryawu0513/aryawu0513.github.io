@@ -10,7 +10,7 @@ In my previous life I was a fine art/architecture design student.
 
 Here's my [art](https://aryazixuan.weebly.com) website!
 
-Nowadays I put my enthusiasm for art & design in building interactive and intelligent objects and interfaces, through courses and projects under MIT Architecture and MIT Media Lab.
+I enjoy building interactive and intelligent objects and interfaces, through courses and projects under MIT Architecture and MIT Media Lab.
 
 Design Toolkit:
 
