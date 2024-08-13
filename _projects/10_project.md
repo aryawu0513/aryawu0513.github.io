@@ -4,5 +4,5 @@ title: Why Code LLMs (Cannot) Reason about Pointers and Aliasing
 description: Northeastern NUPRL
 img:
 importance: 1
-category: research projects
+category: donotinclude
 ---
