@@ -1,15 +1,20 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: arts
+permalink: /arts/
 description:
 nav: true
 nav_order: 3
-display_categories: [research projects, course projects, software projects]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+In my previous life I was a fine art/architecture design student.
+
+Here's my [art](https://aryazixuan.weebly.com) website!
+
+I enjoy building interactive interfaces, through courses and projects under MIT Architecture and MIT Media Lab.
+
+<!-- pages/arts.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

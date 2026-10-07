@@ -15,8 +15,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a senior undergraduate at Wellesley College majoring in Computer Science and Architecture.
+I'm a second-year PhD student at [Northeastern University](https://www.khoury.northeastern.edu/), advised by Prof. [Arjun Guha](https://www.khoury.northeastern.edu/home/arjunguha/main/home/). I'm also fortunate to collaborate with Prof. [Carolyn Anderson](https://canders1.github.io) at Wellesley College, where I completed my undergrad.
 
-My research interests center around Large Language Models for natural language, code, and multimodal data, with a focus on interpretability and reasoning.
-
-Currently, I'm working on neural network interpretability for Code Large Language Models under Prof. [Arjun Guha](https://www.khoury.northeastern.edu/home/arjunguha/main/home/) at NEU, and benchmarking Vision-Language models on patterns in human writing systems under Prof. [Carolyn Anderson](https://canders1.github.io) at Wellesley College.
+My research focuses on large language models for code generation and agentic programming. I work on training and evaluating these models across a range of tasks and programming languages. I'm also interested in agent security, mechanistic interpretability, and human-AI interaction.

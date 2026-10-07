@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Arya
 middle_name: (Zixuan)
 last_name: Wu
-email: zw102@wellesley.edu
+email: wu.zixua@northeastern.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Arya (Zixuan) Wu's personal webpage
 footer_text: >
@@ -94,7 +94,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: # your Google Scholar ID
+scholar_userid: i0iuELgAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -186,7 +186,7 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /arts/:path/
 
 announcements:
   enabled: true
@@ -306,8 +306,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Wu]
+  first_name: [Zixuan, Z.]
 
   style: apa
   locale: en
